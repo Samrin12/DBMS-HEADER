@@ -1,0 +1,63 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Bebas Neue', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part start */
+header{
+    background-color: #5da5d9eb;
+}
+header .img-fluid {
+    max-width: 25%;
+    height: auto;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    transition: .7s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #0F75BC;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #6AACDC;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0F75BC;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 700;
+    color: #fff;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color:#0F75BC ;
+    background-color: #e9ecef;
+}
+/* header part end */
+/* banner part start */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
